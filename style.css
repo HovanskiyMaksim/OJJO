@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 950px;
+    background-image: url(img/bgc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header_top_a{
+    display: flex;
+}
+
+.left_list_a{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 126px;
+    padding-top: 43px;
+}
+
+.left_item_a{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    line-height: 150%;
+}
+
+.logo_a{
+    margin-top: 25px;
+}
+
+.right_list_a{
+    display: flex;
+    list-style: none;
+    padding-top: 43px;
+    margin-left: 99px;
+}
+
+.right_item_a{
+    font-size: 18px;
+    color: #fff;
+}
+
+.search-img{
+    margin-right: 13px;
+}
+
+.search-text{
+    margin-right: 40px;
+}
+
+
+.sing-in-img{
+    margin-right: 25px;
+}
+
+
+
+.header_title{
+    color: #FFF;
+    text-align: center;
+
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-top: 523px;
+}
+
+.header_button{
+    width: 261px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    border: 1px solid var(--white, #FFF);
+    background: var(--accent, #333);
+    margin-bottom: 110px;
+}
+
+
+
+
+
+
+
+
+
+.events_title{
+    font-size: 21px;
+    font-family: 'Gilroy';
+    line-height: 140%;
+    color: var(--accent, #333);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.beauty_title{
+    font-size: 30px;
+font-family: 'Roboto';
+font-weight: 700;
+text-align: center;
+color: var(--accent, #333);
+text-align: center;
+margin-top: 15px;
+
+}
+
+.event_cards{
+    margin-top: 60px;
+}
+
+.events_images{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+
+.event_img{
+    width: 350px;
+    height: 280px;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.event_image{
+    position: absolute;
+    z-index: -1;
+}
+
+.event_img_text{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 222px;
+
+}
+
+.choice{
+    background-image: url(img/Rectangle\ 6.png);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 541px;
+    margin-top: 120px;
+}
+
+.choice_title{
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 100px; 
+}
+
+.choice_subtitle{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.choice_text{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    width: 730px;
+    margin-top: 45px;
+}
+
+.choice_button{
+    background-color: #FFF;
+    width: 224px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent, #333);
+    margin: 0 auto;
+    margin-top: 60px; 
+}
+
+.advices{
+    margin-top: 120px;
+}
+
+.advice_title{
+    color: var(--accent, #333);
+    text-align: center;
+    font-size: 21px;
+}
+
+.advices_subtitle{
+    color: var(--accent, #333);
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+
+.advices_images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.advice_image1{
+    width: 350px;
+    height: 370px;
+    background-image: url(img/рука\ кольцо.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.advice_image2{
+    width: 350px;
+    height: 370px;
+    background-image: url(img/синий\ браслет.png);
+    display: flex;
+    justify-content: center;
+}
+
+.advice_image3{
+    width: 350px;
+    height: 370px;
+    background-image: url(img/книги.png); 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.advice_text1{
+    width: 154px;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 248px;
+    color: #FFF;
+}
+
+.advice_text2{
+    width: 204px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 248px;
+    font-size: 21px;
+}
+
+.advice_text3{
+    width: 206px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 248px;
+    font-size: 21px;
+}
+
+.advices_button{
+    font-size: 18px;
+    color: #fff;
+    width: 255px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.socius{
+    margin-top: 120px;
+}
+
+.socius_title{
+    font-size: 21px;
+    color: var(--accent, #333);
+text-align: center;
+}
+
+.socius_subtitle{
+    color: var(--accent, #333);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.socius_images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offers{
+    width: 100%;
+    height: 478px;
+    background-image: url(img/Rectangle\ 6.png);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    margin-top: 150px;
+}
+
+
+.offers_title{
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.offers_subtitle{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;   
+}
+
+
+
+
+.offers_item{
+    color: #FFF;
+    font-size: 18px;
+}
+
+.offers_list{
+    margin-left: 592px;
+    margin-top: 63px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.offers_hosted{
+    display: flex;
+}
+
+.offers_mail{
+    width: 448px;
+height: 113px;
+border: 1px solid var(--white, #FFF);
+margin-top: 50px    ;
+margin-left: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.mail{
+    width: 418px;
+    height: 85px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.mail_input{
+    width: 200px;
+    height: 45px;
+    border: 1px solid var(--grey, #D6D6D6);
+    background: var(--white, #FFF);
+    margin-left: 20px;
+}
+
+.mail_input::placeholder{
+    padding-left: 20px   ;
+}
+
+.mail_button{
+    width: 159px;
+    height: 45px;
+    background-color: #333;
+    font-size: 14px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header_coco{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.cocofine{
+    border-right: #FFF 1px solid ;
+}
+
+
+.hide{
+    display: none;
+}
+
+.events_input{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input{
+    width: 750px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+#input::placeholder{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card{
+    width: 350px;
+    height: 370px;
+    border: 1px solid #E0BEA2;
+    box-shadow: 0 -2px 10px #000;
+}
+
+.btn-hidden{
+    font-size: 18px;
+    color: #fff;
+    width: 255px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-hide{
+    margin-left: 39.3%;
+    width: 255px;
+    height: 51px;
+    background-color: #333;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
